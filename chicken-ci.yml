@@ -1,0 +1,78 @@
+---
+- name: Le Grand Sacrifice du Poulet à la CI
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - name: Prérequis 1 - Trouver un poulet innocent dans la matrice
+      debug:
+        msg: |
+          Found !
+                      ,\\
+                      \\\,_
+                       \` ,\
+                  __,.-" =__)
+                ."        )
+              ,"/  ____,-"
+              //"" ||_||
+                   /_/\_\
+
+    - name: Prérequis 2 - S'installer correctement
+      debug:
+        msg: |
+          L'autel sacré dédié au Dieu tout puissant de la CI :
+                    ___________________________________________
+                   |                                           |
+                   |          AUTEL DE SACRIFICE CI/CD         |
+                   |        "git push --force" autorisé        |
+                   |___________________________________________|
+                  /                                            \
+                 /                <===========]]==              \
+                /             Usage: cat SACRIFICE.md            \
+               /__________________________________________________\
+              |   |                                        |  |   |
+              |   |                                        |  |   |
+              |   |             CI APPROVED                |  |   |
+              |   |                                        |  |   |
+              |___|                                        |__|___|
+
+    - name: CI - Préparation de l'environnement (pre-run-script)
+      debug:
+        msg: |
+          Le poulet sacrifié pour la gloire de la CI sur un fond de musique divine :
+                      ,\\
+                      \\\,_
+                       \` ,\    RIP
+                  __,.-" <===========]]==
+                ."        ).
+              ,"/  ____,-" .
+              //"" ||_||   ..
+                   // \\   ...     †
+          ==========================
+          (  BUILD STATUS: ....... )
+          (  DEPLOYMENT STATUS: .. )
+          ==========================
+
+    - name: CI - S'incliner devant tant de puissance
+      debug:
+        msg: |
+               \*______________________________
+                /                             | 
+               |   BUILD SUCCESS!             |
+               |   ALL TESTS: PASSED          | 
+               |   DEPLOYMENT: SUCCESS        |
+               |                              | 
+               \   May the force be with you  | 
+                \_____________________________*
+                         \  /
+                          \/    (CI God)
+                            _______________
+                           |   ___   ___   |
+                           |  |   | |   |  |
+                           |  |   | |   |  |
+                           |  |___| |___|  |
+                           |      ___      |
+                           |     |   |     |
+                           |     |   |     |
+                           |     |___|     |
+                           |_______________|
